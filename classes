@@ -1,0 +1,7 @@
+container
+text-center
+embed-responsive
+img-fluid
+col-md-6
+text-justify
+border-radius=50% for round images
