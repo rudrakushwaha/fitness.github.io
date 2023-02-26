@@ -16,6 +16,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://kit.fontawesome.com/82e69853ca.js" crossorigin="anonymous"></script>
 
 
@@ -29,8 +30,8 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa-solid fa-bars-staggered"></i>
-                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <!-- <i class="haha fa-solid fa-bars-staggered"></i> -->
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="listitem navbar-nav">
@@ -63,7 +64,7 @@
     <section id="welcome">
         <div class="container">
             <div class="welcome text-center wow animate__animated ">
-                <h1 class="wow animate__animated animate__shakeX">creating website with animation</h1>
+                <h1 data-aos="zoom-in-up" class="">creating website with animation</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, reiciendis. Lorem ipsum dolor sit
                     amet.</p>
                 <button type="submit" class="btn home-btn">Subscribe</button>
@@ -75,10 +76,10 @@
     <section id="about">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 text-center wow animate__animated animate__fadeInLeft">
+                <div data-aos="fade-right" class="col-md-6 text-center ">
                     <img src="images/run.jpg" class="img-fluid" alt="">
                 </div>
-                <div class="col-md-6 text-justify wow animate__animated animate__fadeInRight">
+                <div data-aos="fade-left" class="col-md-6 text-justify">
                     <h3>Knowlege,Skills and Hard Work</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo, optio quisquam inventore nulla
                         ratione assumenda delectus porro laborum nostrum repellat.</p>
@@ -89,8 +90,8 @@
             </div>
 
             <div class="row">
-                <div class="col-md-6 text-justify wow animate__animated animate__fadeInLeft">
-                    <h3>TU PHODEGA</h3>
+                <div data-aos="fade-right" class="col-md-6 text-justify ">
+                    <h3>Tutorials</h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo, optio quisquam inventore
                         nulla
                         ratione assumenda delectus porro laborum nostrum repellat.</p>
@@ -100,7 +101,7 @@
                         magni.
                     </p>
                 </div>
-                <div class="col-md-6 text-justify wow animate__animated animate__fadeInRight">
+                <div data-aos="fade-left" class="col-md-6 text-justify ">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" width="560" height="315"
                             src="https://www.youtube.com/embed/Tz9d7By2ytQ" title="YouTube video player" frameborder="0"
@@ -117,21 +118,21 @@
     <!-- ....................SERVICES.................. -->
     <section id="services">
         <div class="container">
-            <div class="row wow animate__animated animate__fadeInUp">
+            <div data-aos="fade-up" class="row">
                 <div class="col-md-4">
-                    <img src="images/mma.png" class="wow animate__animated animate__fadeInRight" alt="">
+                    <img src="images/mma.png" data-aos="fade-right"  alt="">
                     <h4>Martial Arts</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil in impedit, omnis libero officia
                         suscipit.</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="images/gym.png" class="wow animate__animated animate__fadeInRight" alt="">
+                    <img src="images/gym.png" data-aos="fade-right" alt="">
                     <h4>GYM</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil in impedit, omnis libero officia
                         suscipit.</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="images/boxing.png" class="wow animate__animated animate__fadeInRight" alt="">
+                    <img src="images/boxing.png" data-aos="fade-right" alt="">
                     <h4>Boxing</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil in impedit, omnis libero officia
                         suscipit.</p>
@@ -144,10 +145,10 @@
     <section id="features">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 wow animate__animated animate__fadeInLeft">
+                <div data-aos="fade-right" class="col-md-6 ">
                     <img src="images/feature.png" class="img-fluid" alt="">
                 </div>
-                <div class="col-md-6 wow animate__animated animate__fadeInUp">
+                <div data-aos="fade-up" class="col-md-6 ">
                     <div class="feature-box ">
                         <div class="feature-left">
                             <i class="fa fa-solid fa-trophy"></i>
@@ -159,6 +160,7 @@
                                 optio?</p>
 
                         </div>
+                    </div>
                         <div class="feature-box">
                             <div class="feature-left">
                                 <i class="fa fa-solid fa-heartbeat"></i>
@@ -170,6 +172,7 @@
                                     odio optio?</p>
 
                             </div>
+                        </div>
                             <div class="feature-box">
                                 <div class="feature-left">
                                     <i class="fa fa-solid fa-clock"></i>
@@ -182,9 +185,7 @@
 
                                 </div>
                             </div>
-                        </div>
 
-                    </div>
                 </div>
     </section>
 
@@ -194,19 +195,19 @@
             <h1 class="text-center">Meet Our users</h1>
             <p class="text-center"><small>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</small></p>
             <div class="row">
-                <div class="col-md-4 wow animate__animated animate__fadeInLeft animate__delay-0.5s">
+                <div  data-aos="fade-right" data-aos-delay="100" class="col-md-4 ">
                     <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet tempora eveniet
                         ipsum hic ex ea repellat ullam. Placeat, asperiores unde. <br> <i
                             class="fa fa-solid fa-twitter"></i><span>@username</span></p>
                     <img src="images/user1.jpg" alt="">
                 </div>
-                <div class="col-md-4 middle wow animate__animated animate__fadeInDown">
+                <div data-aos="fade-down" class="col-md-4 middle ">
                     <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet tempora eveniet
                         ipsum hic ex ea repellat ullam. Placeat, asperiores unde. <br> <i
                             class="fa fa-solid fa-twitter"></i><span>@username</span></p>
                     <img src="images/user2.jpg" alt="">
                 </div>
-                <div class="col-md-4 wow animate__animated animate__fadeInRight animate__delay-0.5s">
+                <div data-aos="fade-left" data-aos-delay="100" class="col-md-4 ">
                     <p class="review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet tempora eveniet
                         ipsum hic ex ea repellat ullam. Placeat, asperiores unde. <br> <i
                             class="fa fa-solid fa-twitter"></i><span>@username</span></p>
@@ -216,8 +217,8 @@
         </div>
     </section>
     <section id="subscribe">
-        <div class="container">
-            <div class="subscribe text-center wow animate__animated animate__flipInX">
+        <div class="container"> 
+            <div data-aos="slide-right" class="subscribe text-center ">
                 <h3>Join For Free Trial Now</h3>
                 <p>Subscribe our youtube Channel and be a member of our 10k family</p>
                 <div class="input-group">
@@ -245,7 +246,12 @@
     <script>
         new WOW().init();
     </script>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
 
 </body>
 
 </html>
+

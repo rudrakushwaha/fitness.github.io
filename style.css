@@ -16,13 +16,17 @@
 .navbar-brand img{
     width:150px;
     margin-left: 30px;
+    
+}
+.navbar button{
+    /* color: white; */
 }
 .navbar-toggler{
     border: none;
     outline: none;
 }
- i .fa-bars{
-    color: white;
+ .navbar-toggler .haha {
+    /* color:black; */
 }
 /* ///////////WECOME TEXT////////// */
 .welcome{
